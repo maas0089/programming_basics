@@ -1,0 +1,43 @@
+button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-radius: 25px;
+    background-color: rgba(116, 10, 10, 0.568);
+    border: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25vw;
+    min-height: 80vh;
+    background-color: rgba(32, 178, 171, 0.425);
+    border-radius: 25px;
+}
+.container h4{
+    font-size: 2em;
+    font-weight: bold;
+}
+.groceryTotal th{
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+.groceryCat td{
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+}
+input{
+    border: 2px dashed lightslategray;
+    padding: 1vh 0;
+}
+input[type='number']{
+    width: 7vw;
+}
+input[type='submit']{
+    border: 2px solid black;
+    background-color: blue;
+    padding: 1vh 1vw;
+}
